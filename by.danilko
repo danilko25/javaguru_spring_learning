@@ -1,1 +1,44 @@
 2024-03-30T21:08:50.400+02:00  INFO 19628 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-03-30T22:12:00.217+02:00  INFO 25784 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-03-30T22:16:02.212+02:00  INFO 13948 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-03-30T22:16:22.401+02:00  INFO 17788 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-03-30T22:22:59.955+02:00  INFO 13912 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-03-30T22:24:04.246+02:00  INFO 21732 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-03-30T22:26:42.381+02:00  INFO 23884 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-03-30T22:26:55.106+02:00  INFO 25660 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-03-30T22:27:06.681+02:00  INFO 16996 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-03-30T22:37:22.630+02:00  WARN 9088 --- [Test worker] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testApplicationRunner': Could not inject field: private by.danilko.spring.database.repository.pool.ConnectionPool by.danilko.integration.TestApplicationRunner.pool1
+2024-03-30T22:37:22.683+02:00 ERROR 9088 --- [Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'connectionPool2' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'connectionPool2' in your configuration.
+
+2024-03-30T22:38:35.851+02:00  WARN 3868 --- [Test worker] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testApplicationRunner': Could not inject field: private by.danilko.spring.database.repository.pool.ConnectionPool by.danilko.integration.TestApplicationRunner.pool1
+2024-03-30T22:38:35.894+02:00 ERROR 3868 --- [Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'connectionPool2' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'connectionPool2' in your configuration.
+
+2024-03-30T22:47:45.537+02:00  INFO 15864 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-03-30T22:47:46.906+02:00  INFO 15864 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-03-30T22:47:46.918+02:00  INFO 15864 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
