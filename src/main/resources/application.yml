@@ -18,3 +18,11 @@ db:
       timeout: 20
     - size: 10
       timeout: 20
+
+logging:
+  level:
+    root: WARN
+    by.danilko.spring.database.repository.pool.ConnectionPool: INFO
+  file:
+    name: by.danilko
+    path: /
