@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/by.danilko.spring-starter-danilko.main.iml" filepath="$PROJECT_DIR$/.idea/modules/by.danilko.spring-starter-danilko.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-starter-danilko.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-starter-danilko.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-starter-danilko.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-starter-danilko.test.iml" />
     </modules>
   </component>
 </project>

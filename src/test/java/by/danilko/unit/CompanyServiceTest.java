@@ -13,6 +13,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.context.ApplicationEventPublisher;
 
+import java.util.Collections;
 import java.util.Optional;
 
 
@@ -35,7 +36,7 @@ public class CompanyServiceTest {
 
     @Test
     void findById(){
-        Mockito.doReturn(Optional.of(new Company(COMPANY_ID)))
+        Mockito.doReturn(Optional.of(new Company(COMPANY_ID, null, Collections.emptyMap())))
                 .when(companyRepository).findById(COMPANY_ID);
 
         var actualResult  = companyService.findById(COMPANY_ID);

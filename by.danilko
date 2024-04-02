@@ -1,44 +1,20 @@
-2024-03-30T21:08:50.400+02:00  INFO 19628 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-03-30T22:12:00.217+02:00  INFO 25784 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-03-30T22:16:02.212+02:00  INFO 13948 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-03-30T22:16:22.401+02:00  INFO 17788 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-03-30T22:22:59.955+02:00  INFO 13912 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-03-30T22:24:04.246+02:00  INFO 21732 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-03-30T22:26:42.381+02:00  INFO 23884 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-03-30T22:26:55.106+02:00  INFO 25660 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-03-30T22:27:06.681+02:00  INFO 16996 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-03-30T22:37:22.630+02:00  WARN 9088 --- [Test worker] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testApplicationRunner': Could not inject field: private by.danilko.spring.database.repository.pool.ConnectionPool by.danilko.integration.TestApplicationRunner.pool1
-2024-03-30T22:37:22.683+02:00 ERROR 9088 --- [Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-A component required a bean named 'connectionPool2' that could not be found.
-
-
-Action:
-
-Consider defining a bean named 'connectionPool2' in your configuration.
-
-2024-03-30T22:38:35.851+02:00  WARN 3868 --- [Test worker] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testApplicationRunner': Could not inject field: private by.danilko.spring.database.repository.pool.ConnectionPool by.danilko.integration.TestApplicationRunner.pool1
-2024-03-30T22:38:35.894+02:00 ERROR 3868 --- [Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-A component required a bean named 'connectionPool2' that could not be found.
-
-
-Action:
-
-Consider defining a bean named 'connectionPool2' in your configuration.
-
-2024-03-30T22:47:45.537+02:00  INFO 15864 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-03-30T22:47:46.906+02:00  INFO 15864 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-03-30T22:47:46.918+02:00  INFO 15864 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T00:56:56.654+03:00  INFO 3624 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T00:56:57.517+03:00  INFO 3624 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T00:56:58.621+03:00  INFO 3624 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:02:16.090+03:00  INFO 18200 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:02:17.568+03:00  INFO 18200 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:02:19.146+03:00  INFO 18200 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:07:25.343+03:00  INFO 17504 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:07:26.419+03:00  INFO 17504 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:07:28.691+03:00  INFO 17504 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:08:56.126+03:00  WARN 17504 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m34s463ms618µs200ns).
+2024-04-02T01:09:18.373+03:00  INFO 15808 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:09:19.759+03:00  INFO 15808 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:09:21.951+03:00  INFO 15808 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:19:54.587+03:00  WARN 15808 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m40s474ms782µs200ns).
+2024-04-02T01:23:41.443+03:00  INFO 11644 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:23:42.478+03:00  INFO 11644 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:23:44.617+03:00  INFO 11644 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:24:45.889+03:00  INFO 19352 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:24:46.566+03:00  INFO 19352 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-02T01:24:47.725+03:00  INFO 19352 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
