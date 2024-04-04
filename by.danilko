@@ -1,20 +1,67 @@
-2024-04-02T00:56:56.654+03:00  INFO 3624 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T00:56:57.517+03:00  INFO 3624 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T00:56:58.621+03:00  INFO 3624 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:02:16.090+03:00  INFO 18200 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:02:17.568+03:00  INFO 18200 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:02:19.146+03:00  INFO 18200 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:07:25.343+03:00  INFO 17504 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:07:26.419+03:00  INFO 17504 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:07:28.691+03:00  INFO 17504 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:08:56.126+03:00  WARN 17504 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m34s463ms618µs200ns).
-2024-04-02T01:09:18.373+03:00  INFO 15808 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:09:19.759+03:00  INFO 15808 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:09:21.951+03:00  INFO 15808 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:19:54.587+03:00  WARN 15808 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m40s474ms782µs200ns).
-2024-04-02T01:23:41.443+03:00  INFO 11644 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:23:42.478+03:00  INFO 11644 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:23:44.617+03:00  INFO 11644 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:24:45.889+03:00  INFO 19352 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:24:46.566+03:00  INFO 19352 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-02T01:24:47.725+03:00  INFO 19352 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:03:04.130+03:00  INFO 19320 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:03:04.726+03:00  INFO 19320 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:03:04.727+03:00  INFO 19320 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:03:04.774+03:00  WARN 19320 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:14:16.690+03:00  INFO 4276 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:14:19.703+03:00  INFO 4276 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:14:19.705+03:00  INFO 4276 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:14:19.958+03:00  WARN 4276 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:14:42.834+03:00  WARN 4276 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'age' for method parameter type Integer is not present]
+2024-04-04T00:15:09.022+03:00  WARN 4276 --- [http-nio-8081-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'age' for method parameter type Integer is not present]
+2024-04-04T00:16:49.339+03:00  INFO 5176 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:16:51.689+03:00  INFO 5176 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:16:51.691+03:00  INFO 5176 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:16:51.838+03:00  WARN 5176 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:17:19.449+03:00  WARN 5176 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'age' for method parameter type Integer is not present]
+2024-04-04T00:18:02.364+03:00  INFO 8588 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:18:04.349+03:00  INFO 8588 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:18:04.350+03:00  INFO 8588 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:18:04.481+03:00  WARN 8588 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:18:06.226+03:00  WARN 8588 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'age' for method parameter type Integer is not present]
+2024-04-04T00:18:08.655+03:00  WARN 8588 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'age' for method parameter type Integer is not present]
+2024-04-04T00:18:33.000+03:00  INFO 12860 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:18:35.019+03:00  INFO 12860 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:18:35.019+03:00  INFO 12860 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:18:35.138+03:00  WARN 12860 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:18:40.648+03:00  WARN 12860 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'age' for method parameter type Integer is not present]
+2024-04-04T00:19:18.007+03:00  WARN 12860 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type Integer is not present]
+2024-04-04T00:19:51.008+03:00  INFO 18208 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:19:53.270+03:00  INFO 18208 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:19:53.271+03:00  INFO 18208 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:19:53.381+03:00  WARN 18208 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:27:52.208+03:00  INFO 8396 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:27:52.809+03:00  INFO 8396 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:27:52.810+03:00  INFO 8396 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:27:52.853+03:00  WARN 8396 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:28:09.015+03:00  WARN 8396 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.ServletRequestBindingException: Missing session attribute 'user' of type UserReadDto]
+2024-04-04T00:28:09.415+03:00  WARN 8396 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.ServletRequestBindingException: Missing session attribute 'user' of type UserReadDto]
+2024-04-04T00:33:39.365+03:00  INFO 2652 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:33:40.331+03:00  INFO 2652 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:33:40.333+03:00  INFO 2652 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:33:40.413+03:00  WARN 2652 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:35:50.401+03:00  INFO 18960 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:35:50.942+03:00  INFO 18960 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:35:50.943+03:00  INFO 18960 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:35:50.991+03:00  WARN 18960 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:39:02.719+03:00  INFO 15756 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:39:03.270+03:00  INFO 15756 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:39:03.271+03:00  INFO 15756 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:39:03.327+03:00  WARN 15756 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:41:16.963+03:00  INFO 11536 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:41:17.478+03:00  INFO 11536 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:41:17.479+03:00  INFO 11536 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:41:17.536+03:00  WARN 11536 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:44:44.466+03:00  INFO 14244 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:44:45.059+03:00  INFO 14244 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:44:45.059+03:00  INFO 14244 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:44:45.111+03:00  WARN 14244 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T00:45:38.454+03:00  INFO 2088 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:45:38.997+03:00  INFO 2088 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:45:38.998+03:00  INFO 2088 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T00:45:39.044+03:00  WARN 2088 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T01:11:52.073+03:00  INFO 7620 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T01:11:54.810+03:00  INFO 7620 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T01:11:54.812+03:00  INFO 7620 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-04T01:11:55.014+03:00  WARN 7620 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-04T01:12:03.954+03:00  WARN 7620 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.ServletRequestBindingException: Missing session attribute 'user' of type UserReadDto]
+2024-04-04T01:12:48.274+03:00  WARN 7620 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s309ms299Âµs100ns).
