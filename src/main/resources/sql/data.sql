@@ -17,13 +17,13 @@ VALUES (1, 'en', 'Leading provider of innovative solutions.'),
 -- Add descriptions for other companies following the same pattern (company_id, lang, description)
 
 INSERT INTO users (username, birth_date, firstname, lastname, role, company_id)
-VALUES ('john.doe', '1985-05-12', 'John', 'Doe', 'user', 1),
-       ('jane.smith', '1990-10-21', 'Jane', 'Smith', 'admin', 2),
-       ('maria.garcia', '1978-02-04', 'Maria', 'Garcia', 'editor', 3),
-       ('chen.li', '1982-09-18', 'Chen', 'Li', 'user', 4),
-       ('anna.belova', '1995-03-27', 'Anna', 'Belova', 'admin', 5),
-       ('david.miller', '1980-12-11', 'David', 'Miller', 'user', 6),
-       ('kim.jung', '1992-08-23', 'Kim', 'Jung', 'editor', 7);
+VALUES ('john.doe', '1985-05-12', 'John', 'Doe', 'USER', 1),
+       ('jane.smith', '1990-10-21', 'Jane', 'Smith', 'ADMIN', 2),
+       ('maria.garcia', '1978-02-04', 'Maria', 'Garcia', 'ADMIN', 3),
+       ('chen.li', '1982-09-18', 'Chen', 'Li', 'USER', 4),
+       ('anna.belova', '1995-03-27', 'Anna', 'Belova', 'ADMIN', 5),
+       ('david.miller', '1980-12-11', 'David', 'Miller', 'USER', 6),
+       ('kim.jung', '1992-08-23', 'Kim', 'Jung', 'USER', 7);
 
 
 -- Assuming payments for different users (adjust user IDs as needed)

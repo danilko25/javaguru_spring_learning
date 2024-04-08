@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ToString
-public class UserMapper {
+public class UserMapper{
 
     private final UserDTO userDTO;
 

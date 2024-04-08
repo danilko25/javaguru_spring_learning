@@ -8,12 +8,11 @@ import java.time.LocalDate;
 
 @Value
 @FieldNameConstants
-public class UserReadDto {
-    Long id;
+public class UserCreateEditDto {
     String username;
     LocalDate birthDate;
     String firstName;
     String lastName;
     Role role;
-    CompanyReadDto company;
+    Integer companyId;
 }
