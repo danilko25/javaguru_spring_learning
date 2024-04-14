@@ -1,6 +1,3 @@
-2024-04-09T00:18:27.789+03:00  INFO 15640 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-09T00:18:28.994+03:00  INFO 15640 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-09T00:18:31.333+03:00  INFO 15640 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-09T00:19:28.968+03:00  INFO 1900 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-09T00:19:30.120+03:00  INFO 1900 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
-2024-04-09T00:19:31.769+03:00  INFO 1900 --- [Test worker] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-15T01:37:38.764+03:00  INFO 5280 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-15T01:37:39.322+03:00  INFO 5280 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool
+2024-04-15T01:37:39.323+03:00  INFO 5280 --- [main] b.d.s.d.repository.pool.ConnectionPool   : Init connection pool

@@ -32,8 +32,8 @@ public class UserCreateEditMapper implements Mapper<UserCreateEditDto, User> {
     private void copy(UserCreateEditDto object, User user) {
         user.setUsername(object.getUsername());
         user.setBirthDate(object.getBirthDate());
-        user.setFirstname(object.getFirstName());
-        user.setLastname(object.getLastName());
+        user.setFirstname(object.getFirstname());
+        user.setLastname(object.getLastname());
         user.setRole(object.getRole());
         user.setCompany(getCompany(object.getCompanyId()));
     }
